@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CABBAGE_PRESETS>
+  <PRESET0 PresetName="miniCS 0" preset_selection="0.0" pitchbend="0.5"
+           modulation="0.0" textin="  " orc_3="0.0" orc_2="0.0" macEnc1="0.0"
+           macEnc2="0.0" macEnc3="0.0" macRot1="0.0" macRot2="0.0" macRot3="0.0"
+           textin_events="  "/>
+  <PRESET1 PresetName="miniCS 1" preset_selection="0.0" pitchbend="0.5"
+           modulation="0.0" textin="  " orc_3="0.0" orc_2="0.0" macEnc1="0.0"
+           macEnc2="0.0" macEnc3="0.0" macRot1="0.0" macRot2="0.0" macRot3="0.0"
+           textin_events=""/>
+  <PRESET2 PresetName="miniCS 2" preset_selection="0.0" pitchbend="0.5"
+           modulation="0.0" textin="  &#10;#include &quot;midiin.orc&quot;&#10;"
+           orc_3="0.0" orc_2="0.0" macEnc1="0.0" macEnc2="0.0" macEnc3="0.0"
+           macRot1="0.0" macRot2="0.0" macRot3="0.0" textin_events="  i 365 0 31536000 "/>
+  <PRESET3 PresetName="miniCS 3" preset_selection="0.0" pitchbend="0.5"
+           modulation="0.0" textin="  &#10;#include &quot;midiin.orc&quot;&#10;&#10;massign 0, 1&#10;instr 1&#10;aenv madsr .023, .023, db(-9), .98&#10;ares vco2 p5/2, p4, 2, .5, 0, .35&#10;ares phaser1 ares, p4*5/4, 13, .97&#10;ares *= aenv&#10;outs ares, ares&#10;endin&#10;"
+           orc_3="0.0" orc_2="0.0" macEnc1="0.0" macEnc2="0.0" macEnc3="0.0"
+           macRot1="0.0" macRot2="0.0" macRot3="0.0" textin_events="  i 365 0 31536000 "/>
+</CABBAGE_PRESETS>
